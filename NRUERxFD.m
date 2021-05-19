@@ -55,7 +55,7 @@ classdef NRUERxFD < matlab.System
             for i=1:nStreams
                 % Demodulates and decodes one slot of data
                 chanGrid = squeeze(chanGrid4D(i,i,:,:));
-                rxGrid = sqrt(nStreams)*squeeze(rxGrid3D(i,:,:));      %%%%%%% ADDED NSTREAMS: UFI
+                rxGrid = sqrt(nStreams)*squeeze(rxGrid3D(i,:,:));      %%%%%%% ADDED NSTREAMS: UFUK
                 noiseVar = noiseVar2D(i);
                 % Get PDSCH received symbols and channel estimates
                 % from received grid 

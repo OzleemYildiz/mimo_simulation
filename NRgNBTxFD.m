@@ -93,7 +93,7 @@ classdef NRgNBTxFD < matlab.System
                 obj.txBits = [obj.txBits ; BitsPerLayer];
                 
             end
-            txGrid3D = txGrid3D/sqrt(nStreams); % normalize power for multiple layers: UFII
+            txGrid3D = txGrid3D/sqrt(nStreams); % normalize power for multiple layers: UFUK
         end
         
     end
