@@ -1,5 +1,8 @@
 # mimo_simulation
 A course project for ECE-GY 6013, Wireless Communications, NYU
+Spring 2021
+Prof. Sundeep Rangan
+
 
 Group Members
 
